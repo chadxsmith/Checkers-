@@ -5,7 +5,8 @@ var PiecesRouter = Backbone.Router.extend({
 
 
 	initialize: function(){
-		storage = ""
+		storage = "";
+		clicked = false;
 		pieces = new PiecesCollection();
 		pieceListView = new PieceListView({collection: pieces});
 		pieces.fetch({reset: true});

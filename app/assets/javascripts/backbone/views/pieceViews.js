@@ -21,6 +21,9 @@ var PieceView = Backbone.View.extend({
 	var view = this 
 	$("#"+ view.model.attributes.position + "").css('background', 'yellow');
 	storage = $("#"+ view.model.attributes.position + "")
+	clicked = true;
+	console.log(clicked)
+
 
 	
 
