@@ -13,3 +13,38 @@
  *= require_tree .
  *= require_self
  */
+
+.board {
+      display: inline-block;
+      border: 1px solid black;
+      padding: 0;
+    }
+    .row {
+      margin: 0;
+      padding: 0;
+    }
+
+    .square {
+      display: inline-block;
+      width: 100px;
+      height: 100px;
+      background-color: black;
+      color: red;
+    }
+
+    .row {
+      display: block;
+    }
+
+    .row:nth-child(2n+1) .square {
+      margin: 0 0 0 100px;
+      padding: 0;
+    }
+
+    .row:nth-child(2n) .square {
+      margin: 0 100px 0 0;
+      /* padding: 0; */
+    }
+    .selected{
+    	color: yellow;
+    }
