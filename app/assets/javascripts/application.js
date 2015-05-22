@@ -27,7 +27,7 @@
 $(document).ready(loadPiecesApp);
 
 function loadPiecesApp(){
-	// location = "";
+
 	new PiecesRouter();
 	Backbone.history.start();
 }

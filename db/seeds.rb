@@ -68,6 +68,47 @@ pieces = Piece.create([
       jumped: false
     },
     {
+      color: "none",
+      position: 13,
+      jumped: false
+    },
+    {
+      color: "none",
+      position: 14,
+      jumped: false
+    },   
+    {
+      color: "none",
+      position: 15,
+      jumped: false
+    },
+    
+    {
+      color: "none",
+      position: 16,
+      jumped: false
+    },      
+    {
+      color: "none",
+      position: 17,
+      jumped: false
+    },  
+    {
+      color: "none",
+      position: 18,
+      jumped: false
+    },   
+    {
+      color: "none",
+      position: 19,
+      jumped: false
+    },  
+    {
+      color: "none",
+      position: 20,
+      jumped: false
+    }, 
+    {
       color: "black",
       position: 21,
       jumped: false
